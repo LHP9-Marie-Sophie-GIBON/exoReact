@@ -1,0 +1,49 @@
+
+.card-container {
+  display: flex; /* Utilisation de Flexbox pour les cartes */
+  flex-wrap: wrap; /* Permet aux cartes de passer à la ligne si l'espace est insuffisant */
+  justify-content: center; /* Centre les cartes horizontalement */
+}
+
+.card {
+  flex: 1;
+  max-width: 300px;
+  max-height: 450px;
+  margin: 1rem;
+  padding: 20px;
+  background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+  color: rgb(91, 93, 94);
+  border-radius: 10px;
+  box-shadow: rgba(55, 28, 255, 0.199) -5px 5px;
+  transition: 0.7s;
+}
+
+.card:hover {
+  box-shadow: rgba(55, 28, 255, 0.199) -10px 10px, rgba(150, 184, 245, 0.19) -20px 20px ;
+  transform: scale(1.1,1.1); 
+}
+
+small {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(191, 191, 191);
+}
+.card__image {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+  border: 2px;
+  background-color : rgba(168, 157, 253, 0.199);
+  border-radius: 10px;
+}
+
+.card__type {
+  width: 30px;
+}
+
+h2 {
+  display: flex;
+}
