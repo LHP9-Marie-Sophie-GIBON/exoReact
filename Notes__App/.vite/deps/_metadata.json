@@ -1,0 +1,50 @@
+{
+  "hash": "674c4e05",
+  "browserHash": "9c467064",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "c3ff82f9",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../node_modules/react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "5a7212b2",
+      "needsInterop": true
+    },
+    "react-split": {
+      "src": "../../node_modules/react-split/dist/react-split.es.js",
+      "file": "react-split.js",
+      "fileHash": "b38eef5f",
+      "needsInterop": false
+    },
+    "nanoid": {
+      "src": "../../node_modules/nanoid/index.dev.js",
+      "file": "nanoid.js",
+      "fileHash": "bf3f9ef1",
+      "needsInterop": false
+    },
+    "react-mde": {
+      "src": "../../node_modules/react-mde/lib/js/index.js",
+      "file": "react-mde.js",
+      "fileHash": "8af81a60",
+      "needsInterop": true
+    },
+    "showdown": {
+      "src": "../../node_modules/showdown/dist/showdown.js",
+      "file": "showdown.js",
+      "fileHash": "f529d777",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-23ZMGCJ2": {
+      "file": "chunk-23ZMGCJ2.js"
+    },
+    "chunk-UXIASGQL": {
+      "file": "chunk-UXIASGQL.js"
+    }
+  }
+}
